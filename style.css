@@ -20,12 +20,15 @@ p{
     font-size: 20px;
     font-family: 'Lato', sans-serif;
     margin: 10px 0;
-    color: #ddd;
+    color: #7e7e7e;
 }
 h1{
     font-size: 55px;
     font-family: 'Rubik', sans-serif;
     margin: 20px 0;
+}
+h2{
+    font-family: 'Rubik', sans-serif;
 }
 h5{
     font-size: 20px;
@@ -76,9 +79,6 @@ h5{
 .feature{
     padding: 50px 0;
 }
-.feature p{
-    color: #7e7e7e;
-}
 .feature-img{
     width: 50%;
 }
@@ -104,4 +104,44 @@ h5{
     color: tomato;
     font-size: 25px;
     margin: 15px 0;
+}
+
+
+.download{
+    padding:100px 50px 50px;
+}
+.download-area{
+    position: relative;
+    background: #fff;
+    padding: 60px;
+    border-radius: 10px;
+}
+.download-img{
+    position: absolute;
+    bottom: -1%;
+    right: 10%;
+    width: 300px;
+
+}
+.download-img img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+.gaol{
+    padding: 50px 0;
+    background: #fff;
+}
+.goal-list{
+    padding: 20px 0;
+}
+.goal-list table{
+    width: 100%;
+}
+.goal-list table tr td{
+    padding: 10px;
+}
+.goal-list table tr td::before{
+    content: url("photo/3-removebg-preview.png");
+    padding: 5px;
 }
